@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.page-footer {
+  padding: 1rem;
+  text-align: center;
+
+  a {
+    color: $accent-strong;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color $transition-fast;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

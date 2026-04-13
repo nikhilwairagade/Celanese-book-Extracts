@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.page-header {
+  padding: 2.2rem 1.25rem 1rem;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    font-size: clamp(1.45rem, 2.2vw, 2.2rem);
+    letter-spacing: 0.03em;
+  }
+
+  @include mobile {
+    padding-top: 1.35rem;
+  }
+}

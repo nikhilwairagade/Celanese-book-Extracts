@@ -1,0 +1,23 @@
+// ── Colour palette ──
+$bg-top: #f4f8ff;
+$bg-bottom: #ecfff7;
+$panel: rgba(255, 255, 255, 0.9);
+$ink: #1e2440;
+$ink-soft: #4f5678;
+$accent: #0059b3;
+$accent-strong: #003f7f;
+$border: #d8e2f2;
+$error: #b42318;
+
+// ── Typography ──
+$font-family: 'Space Grotesk', sans-serif;
+
+// ── Layout ──
+$content-max-width: 1200px;
+$radius-lg: 14px;
+$radius-md: 10px;
+$radius-sm: 8px;
+
+// ── Transitions ──
+$transition-fast: 180ms ease;
+$transition-med: 500ms ease;
