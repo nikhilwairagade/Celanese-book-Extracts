@@ -1,0 +1,20 @@
+{
+  "name": "book-extracts-backend",
+  "version": "1.0.0",
+  "description": "Local Azure Function API for Pan Macmillan book extracts",
+  "scripts": {
+    "start": "func start",
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "azure-functions",
+    "books",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.9.0",
+    "jest": "^30.3.0"
+  }
+}
